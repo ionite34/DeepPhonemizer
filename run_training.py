@@ -10,7 +10,7 @@ if __name__ == '__main__':
     val_data = [('en_us', 'young', 'jʌŋ'),
                 ('de', 'benützten', 'bənʏt͡stn̩')] * 100
 
-    config_file = 'dp/configs/forward_config.yaml'
+    config_file = 'dp/configs/autoreg_config.yaml'
 
     preprocess(config_file=config_file,
                train_data=train_data,
