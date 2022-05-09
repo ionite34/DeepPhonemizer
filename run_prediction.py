@@ -2,10 +2,11 @@ from dp.phonemizer import Phonemizer
 
 if __name__ == '__main__':
 
-    checkpoint_path = 'checkpoints/best_model_no_optim.pt'
-    phonemizer = Phonemizer.from_checkpoint(checkpoint_path)
+    checkpoint_path = 'checkpoints/pre_en_us_cmudict_forward.pt'
+    phonemizer = Phonemizer.from_checkpoint(checkpoint_path, device='cuda')
 
-    text = 'young'
+    # noinspection SpellCheckingInspection
+    text = "Adam'll"
 
     result = phonemizer.phonemise_list([text], lang='en_us')
 
