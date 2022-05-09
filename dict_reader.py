@@ -3,8 +3,7 @@
 import re
 
 from tqdm import tqdm
-
-import h2p_parser.format_ph as ph
+import format_ph as ph
 
 
 def read_dict(filename: str) -> list:
@@ -60,7 +59,7 @@ class DictReader:
                 break
 
         # Iterate over the lines
-        for line in tqdm(lines):
+        for line in tqdm(lines, leave=False, desc=f"Parsing {self.filename}", unit="lines"):
             # Skip empty lines and lines with no space
             line = line.strip()
             if line == '':
