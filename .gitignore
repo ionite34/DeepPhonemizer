@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 /dp/checkpoints/
 /dp/datasets/
+
+# Idea
+.idea/
