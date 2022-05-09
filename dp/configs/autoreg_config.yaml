@@ -35,8 +35,8 @@ training:
   warmup_steps: 10000                # Linear increase of the lr from zero to the given lr within the given number of steps.
   scheduler_plateau_factor: 0.5      # Factor to multiply learning rate on plateau.
   scheduler_plateau_patience: 10     # Number of text generations with no improvement to tolerate.
-  batch_size: 32                     # Training batch size.
-  batch_size_val: 32                 # Validation batch size.
+  batch_size: 64                     # Training batch size.
+  batch_size_val: 64                 # Validation batch size.
   epochs: 500                        # Number of epochs to train.
   generate_steps: 10000              # Interval of training steps to generate sample outputs. Also, at this step the phoneme and word
                                      # error rates are calculated for the scheduler.
