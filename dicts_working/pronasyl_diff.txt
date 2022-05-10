@@ -1,0 +1,37 @@
+;;; From pronasyl_test.dict
+reanalysed  R IY AE N AH L AY Z D
+disenchant  D IH S AH N CH AE N T
+illumine  IH L UW M AH N
+antipersonell  AE N T AY P ER S AH N EH L
+;;; From pronasyl_train.dict
+zzzz  Z IY Z
+ngo's  G OW Z
+inflect  IH N F L EH K T
+offical  AH F IH SH AH L
+russify  R UW S AH F AY
+rb  AA R B IY
+disconcerts  D IH S K AH N S ER T S
+reanalyse  R IY AE N AH L AY Z
+occured  AH K ER D
+borwn  B AO R W IH N
+lautenburg  L AW T AH N B ER G
+underpriviledged  AH N D ER P R IH V L IH JH D
+cummick  K AH M AH K
+obediance  OW B IY D IY AH N S
+reanalysing  R IY AE N AH L AY Z IH NG
+dishearten  D IH S HH AA R T AH N
+njt  EH N JH EY T IY
+bimiodal  B AY M OW D AH L
+disgruntle  D IH S G R AH N T AH L
+interm  IH N T ER M
+'quote  K W OW T
+ingrain  IH N G R EY N
+quindlin  K W IH N D L AH N
+denuclearize  D IY N UW K L IY ER AY Z
+bankrutpcy  B AE NG K R AH P S IY
+mmmm  M M
+reanalyses  R IY AE N AH L AY Z AH Z
+rrrot  AA R AA R AA R OW T IY
+coffin's  K AO F IH N Z
+officals  AO F IH K AH L Z
+profitablity  P R AA F AH T AH B IH L AH T IY
