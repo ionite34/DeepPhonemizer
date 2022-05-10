@@ -98,8 +98,9 @@ class Trainer:
             checkpoint['step'] = 0
         start_epoch = checkpoint['step'] // len(train_loader)
 
-        for epoch in range(start_epoch + 1, config['training']['epochs'] + 1):
-            pbar = tqdm.tqdm(enumerate(train_loader, 1), total=len(train_loader))
+        for epoch in tqdm.auto.tqdm(range(start_epoch + 1, config['training']['epochs'] + 1), desc='Epochs', position=0, unit='epochs'):
+            pbar = tqdm.auto.tqdm(enumerate(train_loader, 1), total=len(train_loader),
+                                  desc='Train', position=1, leave=False)
             for i, batch in pbar:
                 checkpoint['step'] += 1
                 step = checkpoint['step']
