@@ -1,14 +1,17 @@
 from dp.preprocess import preprocess
 from dp.train import train
+from dict_reader import DictReader
 
 if __name__ == '__main__':
+    # Data Format: List of tuples ('en_us', 'word', 'PHONEMES')
 
-    train_data = [('en_us', 'young', 'jʌŋ'),
-                  ('de', 'benützten', 'bənʏt͡stn̩'),
-                  ('de', 'gewürz', 'ɡəvʏʁt͡s')] * 1000
+    # Read Dicts
+    dict_train = DictReader('dicts_prod/data_training.dict').dict
+    dict_valid = DictReader('dicts_prod/data_validation.dict').dict
 
-    val_data = [('en_us', 'young', 'jʌŋ'),
-                ('de', 'benützten', 'bənʏt͡stn̩')] * 100
+    # Convert to tuples
+    train_data = list(zip(['en_us'], dict_train.keys(), dict_train.values()))
+    val_data = list(zip(['en_us'], dict_valid.keys(), dict_valid.values()))
 
     config_file = 'dp/configs/autoreg_config.yaml'
 
