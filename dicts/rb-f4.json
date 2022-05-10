@@ -1,0 +1,117 @@
+{
+    "title": "FO4DICT",
+    "description": "post-apoc vocab",
+    "version": "1.0.0",
+    "author": "radbeetle",
+    "nexusLink": null,
+    "data": {
+        "fev": {
+            "enabled": true,
+            "arpabet": "EH1 F IY1 V IY1"
+        },
+        "dima": {
+            "enabled": true,
+            "arpabet": "D IY1 M AA1"
+        },
+        "robobrain": {
+            "enabled": true,
+            "arpabet": "R OW1 B OW1 B R EY1 N"
+        },
+        "x6": {
+            "enabled": true,
+            "arpabet": "EH1 K S S IH1 K S"
+        },
+        "binet": {
+            "enabled": true,
+            "arpabet": "B IH1 N EY1"
+        },
+        "h2": {
+            "enabled": true,
+            "arpabet": "EY1 CH T UW1"
+        },
+        "x4": {
+            "enabled": true,
+            "arpabet": "EH1 K S F AO1 R"
+        },
+        "srb": {
+            "enabled": true,
+            "arpabet": "EH1 S AA1 R B IY1"
+        },
+        "skylanes": {
+            "enabled": true,
+            "arpabet": "S K AY1 L EY1 N Z"
+        },
+        "z2": {
+            "enabled": true,
+            "arpabet": "Z IY1 T UW1"
+        },
+        "x111": {
+            "enabled": true,
+            "arpabet": "EH1 K S W AH1 N IH0 L EH1 V AH0 N"
+        },
+        "mutfruit": {
+            "enabled": true,
+            "arpabet": "M Y UW1 T F R UW1 T"
+        },
+        "mutfruits": {
+            "enabled": true,
+            "arpabet": "M Y UW1 T F R UW1 T S"
+        },
+        "hq": {
+            "enabled": true,
+            "arpabet": "EY1 CH K Y UW1"
+        },
+        "whitechapel": {
+            "enabled": true,
+            "arpabet": "W AY1 T CH AE1 P AH0 L"
+        },
+        "addictol": {
+            "enabled": true,
+            "arpabet": "AH0 D IH1 K T AO1 L"
+        },
+        "bloatfly": {
+            "enabled": true,
+            "arpabet": "B L OW1 T F L AY1"
+        },
+        "aj": {
+            "enabled": true,
+            "arpabet": "EY1 JH EY1"
+        },
+        "atomatoys": {
+            "enabled": true,
+            "arpabet": "AA1 T AA1 M AA1 T OY1 Z"
+        },
+        "minigun": {
+            "enabled": true,
+            "arpabet": "M IH1 N IY0 G AH1 N"
+        },
+        "miniguns": {
+            "enabled": true,
+            "arpabet": "M IH1 N IY0 G AH1 N Z"
+        },
+        "cait": {
+            "enabled": true,
+            "arpabet": "K EY1 T"
+        },
+        "z1": {
+            "enabled": true,
+            "arpabet": "Z IY1 W AH1 N"
+        },
+        "vadim": {
+            "enabled": true,
+            "arpabet": "V AA0 D IY1 IY1 M"
+        },
+        "yefim": {
+            "enabled": true,
+            "arpabet": "Y EH1 F IY1 IY1 M"
+        },
+        "chem": {
+            "enabled": true,
+            "arpabet": "K EH1 M"
+        },
+        "chems": {
+            "enabled": true,
+            "arpabet": "K EH1 M S"
+        }
+    }
+}
