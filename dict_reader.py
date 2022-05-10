@@ -59,7 +59,7 @@ class DictReader:
                 break
 
         # Iterate over the lines
-        for line in tqdm(lines, leave=False, desc=f"Parsing {self.filename}", unit="lines"):
+        for line in tqdm(lines, leave=False, desc=f"Parsing {self.filename}", unit="lines", position=1):
             # Skip empty lines and lines with no space
             line = line.strip()
             if line == '':
